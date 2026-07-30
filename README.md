@@ -1,1 +1,4 @@
-ccdpp-pyspark-als-movielens is a PySpark implementation of alternating least squares (ALS) recommender experiments using the MovieLens dataset. Notebooks reproduce data preparation, model training, evaluation, and result analysis; notebook outputs are committed so they are visible on GitHub. To run locally, install dependencies in a Python environment, place datasets under data/, and open the notebooks or run the provided scripts. Please open an issue or submit a pull request for questions or contributions.
+ccdpp-pyspark-als-movielens is a PySpark implementation of alternating least squares (ALS) recommender experiments using the MovieLens dataset. 
+Notebooks reproduce data preparation, model training, evaluation, and result analysis. 
+Notebook outputs are are visible on GitHub. 
+To run locally, install dependencies in a Python environment, place datasets under data/, open the notebooks and run them. 
