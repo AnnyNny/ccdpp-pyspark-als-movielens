@@ -11,7 +11,9 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
-# Keep notebooks tracked but ignore checkpoints and output files
+# Keep notebooks tracked and ensure notebook outputs remain in tracked .ipynb files
+!*.ipynb
+!**/*.ipynb
 
 # Data and results (large files and datasets)
 data/
