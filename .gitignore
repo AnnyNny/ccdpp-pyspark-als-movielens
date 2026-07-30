@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+# Keep notebooks tracked but ignore checkpoints and output files
+
+# Data and results (large files and datasets)
+data/
+datasets/
+raw_data/
+processed_data/
+results/
+results_backup.json
+als_cv_results.json
+
+# Logs and reports
+*.log
+logs/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# SQLite DBs
+*.sqlite3
+
+# Compressed files
+*.zip
+*.tar.gz
+*.tgz
+
+# Model/checkpoint files (commonly large)
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Ignore environment variable files that may contain secrets
+.env
+.env.*
+
+# Pytest cache
+.pytest_cache/
+
+# Ensure Git LFS can be used for large media if desired
+# Add patterns for media/binaries if present, e.g.:
+# *.mp4
+# *.mov
+# *.h5
