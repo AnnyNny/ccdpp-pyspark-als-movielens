@@ -76,3 +76,7 @@ checkpoints/
 # *.mp4
 # *.mov
 # *.h5
+
+# MovieLens Datasets
+ml-1m/
+ml-100k/
