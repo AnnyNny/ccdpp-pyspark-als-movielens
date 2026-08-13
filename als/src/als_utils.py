@@ -1,6 +1,4 @@
-# ALS baseline using pyspark.ml (no manual ALS implementation).
-# Fits the model, times training, evaluates test RMSE, and returns one
-# result row in the standard schema (see results_utils.RESULT_COLUMNS).
+
 from time import perf_counter
 
 from pyspark.ml.recommendation import ALS
