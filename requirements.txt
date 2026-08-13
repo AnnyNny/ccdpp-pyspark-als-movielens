@@ -1,0 +1,4 @@
+pyspark>=4.0.0
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0,<3.0

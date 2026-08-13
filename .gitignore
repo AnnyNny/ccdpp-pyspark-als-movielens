@@ -80,3 +80,5 @@ checkpoints/
 # MovieLens Datasets
 ml-1m/
 ml-100k/
+# Claude Code local files
+.claude/
